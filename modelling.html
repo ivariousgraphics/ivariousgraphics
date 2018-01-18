@@ -1,0 +1,351 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href='layout.css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+<title>3D Моделирование</title>
+<meta name="description" content="Моделирование архитектуры, ландшафта, обьектов инфраструктуры, персонажей и предметов">
+    <meta property='og:image' content='restaurant.jpg' > 
+     <style>
+        
+         @font-face{
+font-family: 'OpenSans-Light';
+src: url('/fonts/OpenSans-Light.ttf') format('truetype');
+font-weight: bold;
+font-style: italic;
+}
+         
+
+@font-face{
+font-family: 'OpenSans-Bold';
+src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+@font-face{
+font-family: 'OpenSans-ExtraBold';
+src: url('/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+@font-face{
+font-family: 'OpenSans-Italic';
+src: url('/fonts/OpenSans-Italic.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+
+@font-face{
+font-family: 'OpenSans-Regular';
+src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+         #head_img_1{
+             position: relative;
+         width: 1200px;
+             height: 528px;
+             margin-left: auto;
+             margin-right: auto;
+             background-image: url(abstrk.jpg);
+             border-bottom: 5px solid #00ffff;
+         }
+          h1{
+             position:  absolute;
+             color: white;
+             font-family: 'OpenSans-Light';
+             margin-left: 10%;
+              margin-top: 5%;
+         }
+         
+         h2{
+             position:  absolute;
+             color: #a8f5ff;
+             font-family: 'OpenSans-Light';
+             right: 100;
+              margin-top: 30%;
+              text-shadow: black;
+         }
+         
+         h3{
+             position:  relative;
+             color: #ffbf67;
+             font-family: 'OpenSans-Bold';
+             margin-left: auto;
+             margin-right: auto;
+             text-align: center;
+             font-size: 30px;
+         }
+         
+         .hr{
+           background-image: url(hgfhj.jpg);
+             color: #ffe164;
+             width: 1200px;
+             height: 100px;
+             position: relative;
+             margin-left: auto;
+             margin-right: auto;
+             background-attachment: fixed;
+             text-align: center;
+             font-family: 'OpenSans-Bold';
+             font-size: 25px;
+             text-shadow: 1px 1px 2px black, 0 0  1em red;
+             border-bottom: 3px solid #00ffff;
+             margin-top: 8%;
+         }
+         
+         
+         h4{
+             position:  absolute;
+             color: #ffbf67;
+             font-family: 'OpenSans-Light';
+             margin-left: 14%;
+              margin-top: 8%;
+         } 
+         
+         
+         #headlist{
+             width: 1160px;
+         position:  absolute;
+         margin-top: 23%;
+             background: black;
+             opacity: 0.5;
+         
+         }
+         
+         #headlist li::before {
+    margin-right: 13px;
+    content: "✔";
+    color: rgb(255, 0,0);
+}
+         
+         #headlist li{
+          list-style: none;
+         
+         }
+         
+         
+         #head_img_1  a{
+         color: #ffffff;
+             font-size: 20px;
+             font-family: 'OpenSans-Light';
+             line-height: 2;
+             text-decoration: none;
+         }
+         
+         #head_img_1 a:hover {
+        color:#00ffff;
+         }
+         
+         
+         .separator{
+             position: relative;
+         width: 1200px;
+             height: 10px;
+         }
+         
+         
+         .section{
+             position: relative;
+             width: 1200px;
+             height: 350px;
+             background-image: url(hgfhj.jpg);
+             background-attachment: fixed;
+             margin-left: auto;
+             margin-right: auto;
+             border-bottom: 15px solid #ff1400;
+        
+             
+         }
+         
+         .section p {
+             width: 98%;
+         font-size: 25px;
+             font-family: 'OpenSans-Light';
+             text-align:center;
+             margin-left: auto;
+             margin-right: auto;
+             color: white;
+         }
+         
+         
+         .section img {
+             width: 250px;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 2%;
+                      }
+         
+         .img_section{
+                  position: relative;
+             width: 1170px;
+             height: 400px;
+                    margin-left: auto;
+             margin-right: auto;
+             left: 0;
+             right: 0;
+            background-repeat: space;
+         font-family: 'OpenSans-Light';
+             font-size: 22px;
+             text-align: justify;
+           padding: 1%;
+             
+         }
+         
+         .img_section img{
+
+             width: 650px;
+             
+             
+         
+         }
+         
+         .img_section_text{
+         position: relative;
+             width: 1000px;
+             height: 100px;
+             margin-left: auto;
+             margin-right: auto;
+             left: 0;
+             right: 0;
+         color: #ffffff;
+             font-family: 'OpenSans-Bold';
+         background-image: url(repet_red_alfa.png);
+             background-repeat: repeat-x;
+             margin-top: 300px;
+             text-align: center;
+             font-size: 18px;
+             border-bottom: 2px solid gray;
+         }
+         
+         
+         
+         
+         
+         
+         .galary{
+         width: 1200px;
+             margin-left: auto;
+             margin-right: auto;
+             background-color: white;
+         }
+         
+         .galary img{
+        
+             
+         }
+         
+         .galary p{
+         text-align: center;
+         }
+         
+         
+         
+         
+         
+         
+         
+         
+        
+       
+         body{
+       
+        background-image: url(fon.jpg);
+             background-repeat: repeat;
+             
+         }
+         
+         
+         .footer{
+         
+             width: 1200px;
+             height: 402px;
+             background-image: url(footer.jpg);
+             margin-left: auto;
+             margin-right: auto;
+         border: 3px solid #57e2e8; 
+             border-bottom-left-radius: 15px ;
+             border-bottom-right-radius: 15px ; 
+         }
+         
+         .footer p{
+             color: rgb(255, 255, 0);
+             font-family: 'OpenSans-Bold';
+             margin: 7%;
+             font-size: 22px;
+             text-align: center;
+         }
+         
+    
+    </style>
+    
+    
+    
+    
+</head>
+<body>
+    
+    <div id="head_img_1">
+    
+    <p id="head_text_logo"><h1>i V A R I O U S</h1>
+        <h4> G R A P H I C S</h4>
+        </p>
+    
+    <ul id="headlist">
+        <a href="index.html"><li>Главная</li></a>
+        <a href="modelling.html"><li>3D Визуализация</li></a>
+        <a href="illustrator.html"><li>Иллюстрации</li></a>
+      <a href="media.html"><li>Медиа дизайн</li></a>
+    
+    
+    </ul>
+    
+    </div>
+    
+    <div class="section">
+        <h3> 3D Моделирование </h3>
+    <p>- Поиск инвестирования, презентация проэктов, 3D печать для самых разнообразных целей - это не полный перечень направлений в котором используется моделирование-</p>
+        
+        <p><img src="logo.png" width="200"></p>
+        
+    </div>
+    
+   
+    <div class="galary">
+    
+        <p><img src="restaurant.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="house.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="houselit.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="intereir1.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="intereir2.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="intereir3.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="househeigh.jpg" width="800"></p>
+        <p><img src="separator.png" width="200"></p>
+        <p><img src="infrstr.jpg" width="800"></p>
+    </div>
+    
+    
+    
+    
+    
+    <div class="footer">
+        <p>ivarious@gmail.com</p>
+    </div>
+    
+    
+    
+    </body>
+</html>
