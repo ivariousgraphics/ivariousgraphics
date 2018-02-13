@@ -1,0 +1,250 @@
+@keyframes fadein{
+
+    0% { opacity:0; }
+    20% { opacity:0.2; }
+    40% { opacity:0.4; }
+    60% { opacity:0.6; }
+    80% { opacity:0.8; }
+    100% { opacity:1; }
+
+}
+
+
+
+         @font-face{
+font-family: 'OpenSans-Light';
+src: url('../../fonts/OpenSans-Light.ttf') format('truetype');
+font-weight: bold;
+font-style: italic;
+}
+         
+
+@font-face{
+font-family: 'OpenSans-Bold';
+src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+@font-face{
+font-family: 'OpenSans-ExtraBold';
+src: url('../../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+@font-face{
+font-family: 'OpenSans-Italic';
+src: url('../../fonts/OpenSans-Italic.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+
+@font-face{
+font-family: 'OpenSans-Regular';
+src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+.headimg{
+    position: relative;
+    width: 800px;
+    height: 311px;
+    margin-left: auto;
+    margin-right: auto;
+background-image: url(../image/abstrk.jpg);
+    border-bottom: 10px solid rgb(0, 255, 255);
+}
+
+.headimg ul{
+    position: absolute;
+    margin-top: 285px;
+    z-index: 9999;
+    
+}
+
+.headimg ul li{
+    width: 730px;
+    height: 80px;
+    background-color: #000000;
+    list-style: none;
+    border-bottom: 1px solid gray;
+    animation-name: fadein;
+    animation-duration: 0.3s;
+}
+
+.headimg ul li:hover{
+    background-color: #272727;
+}
+
+.headimg ul a{
+    font-family: "OpenSans-Light";
+    margin: 15px;
+    color: #ffcd7d;
+    text-decoration-line: none;
+    font-size: 23px;
+}
+
+
+.headimg ul a:hover{
+    color: #7debff;
+}
+
+
+.headimg ul p{
+    text-align: center;
+}
+
+.headimg img {
+    opacity: 0.7;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 235px;
+}
+
+
+
+
+.invenient{
+    position: relative;
+    width: 800px;
+    height: 374px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+background-image: url(../../style/hgfhj.jpg);
+    border-bottom: 10px solid red;
+
+}  
+
+.invenient_h{
+    text-align: center;
+    font-family: "OpenSans-Bold";
+    color: #ffbc52;
+    font-size: 30px;
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+.invenient_text{
+    width: 700px;
+    text-align: center;
+    font-family: "OpenSans-Light";
+    font-size: 23px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+.invenient_lg{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+
+.pointart{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-top: 3px solid #860000;
+    border-bottom : 10px solid #860000;
+    margin-bottom: 5%;
+}
+
+.pointart_h{
+    text-align: center;
+    font-family: "OpenSans-Bold";
+    font-size: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+
+.logopoint{
+
+text-align: center;
+    animation-name: fadein;
+    animation-duration: 1s;
+
+}
+
+.pointart_txt{
+    text-align: center;
+    font-family: "OpenSans-Light";
+    font-size: 23px;
+    color: #95857d;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+
+.footer{
+    padding-top: 50px;
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    background-image: url(../../style/footer.jpg);
+    border-bottom: 10px solid red;
+}
+
+
+.images{
+
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.images p{
+
+    text-align: center;
+}
+
+
+.email{
+
+    font-family: "OpenSans-Light";
+    font-size: 20px;
+    color: #000000;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-decoration-line: none;
+}
+
+.email a {
+
+  text-decoration-line: none;
+}
+
+
+ body{
+       
+        background-image: url(../../style/fon.jpg);
+             background-repeat: repeat;
+             
+         }
+         
+
+
+
