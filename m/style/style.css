@@ -4,8 +4,8 @@
     20% { opacity:0.2; }
     40% { opacity:0.4; }
     60% { opacity:0.6; }
-    80% { opacity:0.8; }
-    100% { opacity:1; }
+    80% { opacity:0.7; }
+    100% { opacity:0.8; }
 
 }
 
@@ -51,61 +51,86 @@ font-weight: bold;
 font-style: normal;
 }
 
+h1{
+    position: absolute;
+font-family: "OpenSans-Light";
+    margin-left: 10%;
+    color: #d3d3d3;
+    text-decoration-line: none;
+    font-size: 50px;
+    margin-top: 5%;   
+}
+h2{
+    position: absolute;
+font-family: "OpenSans-Light";
+    margin-left: 14%;
+    color: #fff795;
+    text-decoration-line: none;
+    font-size: 30px;
+    margin-top: 10%;   
+}
 
 .headimg{
     position: relative;
-    width: 800px;
-    height: 311px;
+    width: 1360px;
+    height: 444px;
     margin-left: auto;
     margin-right: auto;
-background-image: url(../image/abstrk.jpg);
+    background-image: url(../../style/abstrk.jpg);
+    background-size: cover;
     border-bottom: 10px solid rgb(0, 255, 255);
 }
 
-.headimg ul{
-    position: absolute;
-    margin-top: 285px;
-    z-index: 9999;
-    
+ul{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+ background-image: url(../../style/abstrk.jpg);
 }
 
-.headimg ul li{
-    width: 730px;
-    height: 80px;
-    background-color: #000000;
+ul li{
+    width: 97%;
+    height: 100px;
+    background-color: #1d232e;
     list-style: none;
     border-bottom: 1px solid gray;
     animation-name: fadein;
     animation-duration: 0.3s;
+    opacity: 0.8;
 }
 
-.headimg ul li:hover{
-    background-color: #272727;
+ul li:hover{
+    background-color: #6e83a5;
 }
 
-.headimg ul a{
+ul a{
     font-family: "OpenSans-Light";
-    margin: 15px;
+    margin: 18px;
     color: #ffcd7d;
     text-decoration-line: none;
-    font-size: 23px;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
-.headimg ul a:hover{
-    color: #7debff;
+ul a:hover{
+    color: #fff253;
 }
 
 
-.headimg ul p{
+ul p{
     text-align: center;
 }
 
 .headimg img {
     opacity: 0.7;
     position: absolute;
-    margin-left: 720px;
-    margin-top: 235px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 380px;
 }
 
 
@@ -113,7 +138,7 @@ background-image: url(../image/abstrk.jpg);
 
 .invenient{
     position: relative;
-    width: 800px;
+    width: 1360px;
     height: 374px;
     margin-left: auto;
     margin-right: auto;
@@ -127,16 +152,16 @@ background-image: url(../../style/hgfhj.jpg);
     text-align: center;
     font-family: "OpenSans-Bold";
     color: #ffbc52;
-    font-size: 30px;
+    font-size: 35px;
     animation-name: fadein;
     animation-duration: 1s;
 }
 
 .invenient_text{
-    width: 700px;
+    width: 1200px;
     text-align: center;
     font-family: "OpenSans-Light";
-    font-size: 23px;
+    font-size: 35px;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -153,20 +178,20 @@ background-image: url(../../style/hgfhj.jpg);
 
 .pointart{
     position: relative;
-    width: 800px;
-    height: 600px;
+    width: 1360px;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     border-top: 3px solid #860000;
     border-bottom : 10px solid #860000;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 
 .pointart_h{
     text-align: center;
     font-family: "OpenSans-Bold";
-    font-size: 30px;
+    font-size: 35px;
     color: black;
     margin-left: auto;
     margin-right: auto;
@@ -183,10 +208,10 @@ text-align: center;
 
 }
 
-.pointart_txt{
+.pointart_txt {
     text-align: center;
     font-family: "OpenSans-Light";
-    font-size: 23px;
+    font-size: 35px;
     color: #95857d;
     margin-left: auto;
     margin-right: auto;
@@ -198,11 +223,11 @@ text-align: center;
 .footer{
     padding-top: 50px;
     position: relative;
-    width: 800px;
-    height: 200px;
+    width: 1360px;
+    height: 390px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    
     background-image: url(../../style/footer.jpg);
     border-bottom: 10px solid red;
 }
@@ -210,7 +235,7 @@ text-align: center;
 
 .images{
 
-    width:800px;
+    width: 1360px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -225,16 +250,22 @@ text-align: center;
 .email{
 
     font-family: "OpenSans-Light";
-    font-size: 20px;
+    font-size: 35px;
     color: #000000;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
     text-decoration-line: none;
 }
 
 .email a {
 
   text-decoration-line: none;
+    color: #000000;
+}
+
+.email img {
+
+  height: 30px;
 }
 
 
