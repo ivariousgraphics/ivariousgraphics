@@ -186,6 +186,12 @@ background-image: url(../../style/hgfhj.jpg);
     border-top: 3px solid #860000;
     border-bottom : 10px solid #860000;
     margin-bottom: 50px;
+    
+}
+
+
+.pointart a {
+box-shadow: 2px 5px 15px 2px black;
 }
 
 .pointart_h{
