@@ -86,6 +86,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
  background-image: url(../../style/abstrk.jpg);
+    background-repeat: round;
 }
 
 ul li{
@@ -130,7 +131,7 @@ ul p{
     margin-right: auto;
     left: 0;
     right: 0;
-    margin-top: 380px;
+    margin-top: 350px;
 }
 
 
@@ -143,16 +144,16 @@ ul p{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-background-image: url(../../style/hgfhj.jpg);
-    border-bottom: 10px solid red;
-
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: aliceblue;
 }  
 
 .invenient_h{
     text-align: center;
     font-family: "OpenSans-Bold";
     color: #ffbc52;
-    font-size: 35px;
+    font-size: 30px;
     animation-name: fadein;
     animation-duration: 1s;
 }
@@ -161,12 +162,13 @@ background-image: url(../../style/hgfhj.jpg);
     width: 1200px;
     text-align: center;
     font-family: "OpenSans-Light";
-    font-size: 35px;
-    color: white;
+    font-size: 30px;
+    color: gray;
     margin-left: auto;
     margin-right: auto;
     animation-name: fadein;
     animation-duration: 2s;
+   
 }
 .invenient_lg{
     text-align: center;
@@ -226,52 +228,48 @@ text-align: center;
 }
 
 
-.footer{
-    padding-top: 50px;
-    position: relative;
-    width: 1360px;
-    height: 390px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-image: url(../../style/footer.jpg);
-    border-bottom: 10px solid red;
-}
-
-
 .images{
-
-    width: 1360px;
+width: 1360px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
 }
-
 .images p{
+text-align: center;
+}
 
-    text-align: center;
+
+
+.footer{
+
+    width: 1340px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    padding-top: 20px;
+    padding-left: 20px;
+
 }
 
 
 .email{
 
     font-family: "OpenSans-Light";
-    font-size: 35px;
+    font-size: 25px;
     color: #000000;
-    margin-left: 60px;
-    margin-top: 60px;
     text-decoration-line: none;
 }
 
-.email a {
+.footer a {
 
   text-decoration-line: none;
     color: #000000;
 }
 
-.email img {
-
-  height: 30px;
+.footer img {
+  height: 25px;
 }
 
 
