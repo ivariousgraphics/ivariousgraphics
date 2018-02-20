@@ -1,12 +1,16 @@
 <html>
 <head>
-    <script  type="text/javascript">
+    
+   <script  type="text/javascript">
+   
     if(window.screen.width<window.screen.height){
+       
     location="m/index.html";
     }
     </script>
     
     
+<script type='text/javascript' src='script/script.js'></script>    
 <link rel='stylesheet' type='text/css' href='style/style.css'>
      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
 <title>iVARIOUS GRAPHICS</title>
@@ -17,83 +21,93 @@
     
 </head>
 <body>
-    
-    <div id="head_img_1">
-    
-    <p id="head_text_logo"><h1>i V A R I O U S</h1>
-        <h4> G R A P H I C S</h4>
-        </p>
-    
-    <ul id="headlist">
-        <a href="index.html"><li>Главная</li></a>
-        <a href="modelling.html"><li>3D Моделирование</li></a>
-        <a href="illustrator.html"><li>Иллюстрации</li></a>
-        <a href="media.html"><li>Медиа дизайн</li></a>
-    
-    
-    </ul>
-    
+  
+    <div id="head">
+     <h1>i V A R I O U S</h1>
+        <h2>G R A P H I C S</h2>
+        <!--<img src="style/menu.png"> -->
+        
+        <ul class="menuu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="modelling.html">3D Моделирование</a></li>
+            <li><a href="illustrator.html">Иллюстрация</a></li>
+            <li><a href="media.html">Медиа дизайн</a></li>
+            <li><a href="ivarious.html">ivarious</a></li>
+        
+        </ul>
     </div>
     
-    <div class="section">
-        <h3> Invenient </h3>
-    <p>- Графический дизайн это - линия фронта в бизнесе.
-        В современной насыщенной информацией среде он первым вступает в бой за клиента, инвестора, или поклонника -</p>
-        
-        <p><img src="style/logo.png" width="200"></p>
-        
+    <div class="invenient">
+    <p class="invenient_h">Invenient</p>
+        <p class="invenient_text">- Графический дизайн это - линия фронта в бизнесе. В современной насыщенной информацией среде он первым завоёвывает клиента, инвестора, или поклонника -</p>
+        <p class="invenient_lg"> <img src="style/logoblack.png" width="200"></p>
     </div>
     
-    <ul class="selectul">
+    <ul id="target">
     
-    <a href="modelling.html"><li><img src="images/restaurant.jpg">
-        <div class="coment">3D Моделирование</div>
-        <p>
-        Моделирование архитектуры, интерьера, объектов инфраструктуры, предметов, персонажей, разное.
-        </p>
-        </li></a>
+        <li>
+             <h3>3D Моделирование</h3> 
+            <p><img src="style/3d.png" class="target_logo"></p>
+            
+            <p>
+        -- Разработка архитектуры, интерьера, объектов инфраструктуры, предметов, персонажей, разное --    
+            </p>
+            
+            <p><a href="modelling.html"><img src="images/restaurant.jpg" class="target_img"></a></p>
+          
+            
+        </li>
+        
+        
+        <li>
+              <h3>Иллюстрация</h3>
+            <p><img src="style/illustrator.png" class="target_logo"></p>
+            
+            <p>
+        -- Самые различные стили и направления. Для оформления литературы, игр, сценических презентаций --    
+            </p>
+            
+            <p><a href="modelling.html"><img src="images/ab04ij.jpg" class="target_img"></a></p>
+          
+            
+        </li>
         
         
         
         
-        <a href="illustrator.html"><li><img src="images/ab04ij.jpg">
-        <div class="coment">Иллюстрация</div>
-        <p>
-        Самые различные стили и направления. Для оформления литературы, игр,
-            сценических презентаций.
-        </p>
-            </li></a>
+        <li>
+             <h3>Медиа дизайн</h3>
+            <p><img src="style/media.png" class="target_logo"></p>
+            
+            <p>
+        -- Оформление творческих или новостных статей на разную тематику, рекламы, и других подобных направлений --  
+            </p>
+            
+            <p><a href="modelling.html"><img src="images/strachovka.jpg" class="target_img"></a></p>
+           
+            
+        </li>
         
         
         
         
-        <a href="media.html"><li><img src="images/audit.jpg">
-        <div class="coment">Медиа дизайн</div>
-        <p>
-        Оформление творческих или новостных статей на разную тематику, рекламы,
-            и других подобных направлений.
-        </p>
-            </li></a>
-        
-        
-        
-        
-        <a href="media.html"><li><img src="images/bendcrystal.jpg">
-        <div class="coment">etc</div>
-        <p>
-        Нужно что нибудь другое ? опишите задачу и она будет выполнена!
-        </p>
-            </li></a>
-    
-    
+        <li>
+             <h3>iVARIOUS</h3>
+            <p><img src="style/ivarious.png" class="target_logo"></p>
+            
+            <p>
+        -- Разное --  
+            </p>
+            
+            <p><a href="modelling.html"><img src="images/jkh.jpg" class="target_img"></a></p>   
+        </li>
+
     </ul>
     
-    
-    
-    
-    
+   
     <div class="footer">
-        <p>ivariousgraphics@gmail.com</p>
+     <p class="email"><img src="/style/email.png"> ivariousgraphics@gmail.com</p>
+        <p class="email"><a href="../index.html"><img src="/style/mobile.png"> Мобильная версия</a></p>
     </div>
     
     
