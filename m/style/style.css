@@ -147,6 +147,7 @@ ul p{
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     background-image: url(../../style/invenient.jpg);
+    background-repeat: round;
 }  
 
 .invenient_h{
