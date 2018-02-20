@@ -3,8 +3,9 @@
     
    <script  type="text/javascript">
    
+    var desctop = document.baseURI;
     if(window.screen.width<window.screen.height){
-       
+       if(desctop.indexOf("desctop")==-1)
     location="m/index.html";
     }
     </script>
@@ -107,7 +108,7 @@
    
     <div class="footer">
      <p class="email"><img src="/style/email.png"> ivariousgraphics@gmail.com</p>
-        <p class="email"><a href="../index.html"><img src="/style/mobile.png"> Мобильная версия</a></p>
+        <p class="email"><a href="m/index.html?mobile"><img src="/style/mobile.png"> Мобильная версия</a></p>
     </div>
     
     
