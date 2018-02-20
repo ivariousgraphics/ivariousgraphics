@@ -161,7 +161,7 @@ box-shadow: 5px 5px 25px black;
 }
 
 .target_logo{
-    width: 15%;
+    width: 12%;
     margin-left: auto;
     margin-right: auto;
       margin-top: 3%;
@@ -181,13 +181,14 @@ box-shadow: 5px 5px 25px black;
     margin-top: 2%;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
-    background-color: aliceblue;
+    background-image: url(invenient.jpg);
+    background-repeat: round;
 }  
 
 .invenient_h{
     text-align: center;
     font-family: "OpenSans-Bold";
-    color: #ffbc52;
+    color: #ff9d01;
     font-size: 30px;
     animation-name: fadein;
     animation-duration: 1s;
@@ -198,7 +199,7 @@ box-shadow: 5px 5px 25px black;
     text-align: center;
     font-family: "OpenSans-Light";
     font-size: 30px;
-    color: gray;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     animation-name: fadein;
