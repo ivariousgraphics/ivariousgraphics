@@ -67,8 +67,9 @@ h1{
     font-size: 40px;
 }
 
-h2{width: 100%;
+h2{
     position: absolute;
+    width: 100%;
     font-family: 'OpenSans-Light';
     color: #f7ff94;
     margin-left: 883px;
