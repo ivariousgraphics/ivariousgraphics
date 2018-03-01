@@ -1,0 +1,45 @@
+{
+    
+    "galary": ["modelling",
+               "illustrator",
+               "media",
+               "ivarious"],
+    
+    
+    
+
+    "modelling": [  "restaurant.jpg",
+                    "house.jpg",
+                    "houselit.jpg",
+                    "househeigh.jpg",
+                    "intereir0.jpg",
+                    "person3d_.jpg",
+                    "winfest.jpg"],
+    
+    
+    
+    
+    "illustrator": ["ab04ij.jpg",
+                    "feja.jpg",
+                    "kloung.jpg",
+                    "DRUIDALL.jpg",
+                    "mz.jpg",
+                    "mrOVIS.jpg",
+                    "DFD.jpg"],
+    
+    
+    
+    "media": [      "winfest_.jpg",
+                    "strachovka.jpg",
+                    "audit.jpg",
+                    "analis.jpg",
+                    "cars.jpg",
+                    "androidvsapple.jpg"],
+    
+    
+    
+    "ivarious": [   "hgfnmm.jpg",
+                    "bendcrystal.jpg",
+                    "jkh.jpg"]
+
+}
