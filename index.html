@@ -1,8 +1,12 @@
 <html>
 <head>
     
+    
+    
+    
+   <script  type="text/javascript" src="script/galary.js"></script>
+    
    <script  type="text/javascript">
-   
     var desctop = document.baseURI;
     if(window.screen.width<window.screen.height){
        if(desctop.indexOf("desctop")==-1)
@@ -11,7 +15,10 @@
     </script>
     
     
-<script type='text/javascript' src='script/script.js'></script>    
+ 
+    
+    
+    
 <link rel='stylesheet' type='text/css' href='style/style.css'>
      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
 <title>iVARIOUS GRAPHICS</title>
@@ -22,7 +29,7 @@
     
 </head>
 <body>
-  
+  <ul id="illus"></ul> 
     <div id="head">
      <h1>i V A R I O U S</h1>
         <h2>G R A P H I C S</h2>
@@ -37,13 +44,13 @@
         
         </ul>
     </div>
-    
+     
     <div class="invenient">
     <p class="invenient_h">Invenient</p>
         <p class="invenient_text">- Графический дизайн это - линия фронта в бизнесе. В современной насыщенной информацией среде он первым завоёвывает клиента, инвестора, или поклонника -</p>
         <p class="invenient_lg"> <img src="style/logoblack.png" width="200"></p>
     </div>
-    
+ 
     <ul id="target">
     
         <li>
@@ -54,7 +61,7 @@
         -- Разработка архитектуры, интерьера, объектов инфраструктуры, предметов, персонажей, разное --    
             </p>
             
-            <p><a href="modelling.html"><img src="images/restaurant.jpg" class="target_img"></a></p>
+            <p><a href="modelling.html" onmouseover = "galary_open('modelling')"><img src="images/person3d_.jpg" class="target_img"></a></p>
           
             
         </li>
@@ -68,9 +75,10 @@
         -- Самые различные стили и направления. Для оформления литературы, игр, сценических презентаций --    
             </p>
             
-            <p><a href="illustrator.html"><img src="images/ab04ij.jpg" class="target_img"></a></p>
-          
             
+            
+            <p><a href="illustrator.html" onmouseover = "galary_open('illustrator')" ><img src="images/ab04ij.jpg" class="target_img"></a></p>
+    
         </li>
         
         
@@ -84,7 +92,7 @@
         -- Оформление творческих или новостных статей на разную тематику, рекламы, и других подобных направлений --  
             </p>
             
-            <p><a href="media.html"><img src="images/winfest_.jpg" class="target_img"></a></p>
+            <p><a href="media.html" onmouseover = "galary_open('media')"><img src="images/winfest_.jpg" class="target_img"></a></p>
            
             
         </li>
@@ -100,7 +108,7 @@
         -- Разное --  
             </p>
             
-            <p><a href="ivarious.html"><img src="images/jkh.jpg" class="target_img"></a></p>   
+            <p><a href="ivarious.html" onmouseover = "galary_open('ivarious')"><img src="images/hgfnmm.jpg" class="target_img"></a></p>   
         </li>
 
     </ul>
@@ -108,7 +116,7 @@
    
     <div class="footer">
      <p class="email"><img src="/style/email.png"> ivariousgraphics@gmail.com</p>
-        <p class="email"><a href="m/index.html?mobile"><img src="/style/mobile.png"> Мобильная версия</a></p>
+        <p class="email"><a href="m/index.html?mobile"><img src="/style/mobile.png" > Мобильная версия</a></p>
     </div>
     
     
