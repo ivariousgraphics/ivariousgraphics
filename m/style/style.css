@@ -27,33 +27,9 @@ font-style: normal;
 }
 
 
-@font-face{
-font-family: 'OpenSans-ExtraBold';
-src: url('../../fonts/OpenSans-ExtraBold.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-}
-
-
-@font-face{
-font-family: 'OpenSans-Italic';
-src: url('../../fonts/OpenSans-Italic.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-}
-
-
-
-@font-face{
-font-family: 'OpenSans-Regular';
-src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-}
-
 h1{
     position: absolute;
-font-family: "OpenSans-Light";
+    font-family: "OpenSans-Light";
     margin-left: 10%;
     color: #d3d3d3;
     text-decoration-line: none;
@@ -63,29 +39,29 @@ font-family: "OpenSans-Light";
 h2{
     position: absolute;
 font-family: "OpenSans-Light";
-    margin-left: 14%;
+    margin-left: 18%;
     color: #fff795;
     text-decoration-line: none;
     font-size: 30px;
-    margin-top: 10%;   
+    margin-top: 13%;   
 }
 
 .headimg{
     position: relative;
-    width: 1360px;
-    height: 444px;
+    width: 640px;
+    height: 475px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../../style/abstrk.jpg);
+    background-image: url(abstrk.jpg);
     background-size: cover;
     border-bottom: 10px solid rgb(0, 255, 255);
 }
 
 ul{
-    width: 1320px;
+    width: 640px;
     margin-left: auto;
     margin-right: auto;
- background-image: url(../../style/abstrk.jpg);
+ background-image: url(abstrk.jpg);
     background-repeat: round;
 }
 
@@ -139,7 +115,7 @@ ul p{
 
 .invenient{
     position: relative;
-    width: 1360px;
+    width: 640px;
     height: 374px;
     margin-left: auto;
     margin-right: auto;
@@ -160,11 +136,11 @@ ul p{
 }
 
 .invenient_text{
-    width: 1200px;
+    width: 600px;
     text-align: center;
     font-family: "OpenSans-Light";
     font-size: 30px;
-    color: gray;
+    color: #000000;
     margin-left: auto;
     margin-right: auto;
     animation-name: fadein;
@@ -181,20 +157,20 @@ ul p{
 
 .pointart{
     position: relative;
-    width: 1360px;
-    height: 900px;
+    width: 640px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
     border-top: 3px solid #860000;
     border-bottom : 10px solid #860000;
     margin-bottom: 50px;
+    background-color: white;
     
 }
 
 
 .pointart a {
-box-shadow: 2px 5px 15px 2px black;
+
 }
 
 .pointart_h{
@@ -230,7 +206,7 @@ text-align: center;
 
 
 .images{
-width: 1360px;
+width: 640px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -244,12 +220,11 @@ text-align: center;
 
 .footer{
 
-    width: 1340px;
+    width: 620px;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
     background-color: gray;
-    padding-top: 20px;
     padding-left: 20px;
 
 }
