@@ -55,7 +55,7 @@ break;
     case   "ivarious" : name_image = nameGalary.ivarious[i]; break;
    }
        
-    img_arr[i].innerHTML = "<img src='images640x480/"+name_image+" ' width='200'>";
+    img_arr[i].innerHTML = "<img src='images640x480/"+name_image+" ' height='100'>";
    }
 
         
